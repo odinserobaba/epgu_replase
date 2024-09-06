@@ -1,0 +1,134 @@
+{
+    "id": "5583b1cb-612a-43f1-8011-7f07d1cf3238",
+    "serviceId": "lic-integrator",
+    "requestId": "a44d97bc-f365-4cbc-9da1-dc247b986cc2",
+    "requestType": "EPGU",
+    "xsltId": 10,
+    "responseId": "4a24d60b-42e4-4cc4-b205-42b4eaf9a979",
+    "messageId": "5382a4c9-9808-4580-821e-567ca19d508f",
+    "requestContent": {
+        "epgu": {
+            "orderID": "3501540283",
+            "department": "100000012571",
+            "serviceCode": "60009992",
+            "targetCode": "60009992-1",
+            "statementDate": "2024-08-13"
+        },
+        "applicant": {
+            "ul": {
+                "fullName": "\u041e\u041e\u041e \u0426\u0435\u043d\u0442\u0440\u0418\u043d\u0444\u043e\u0440\u043c",
+                "shortName": "\u041e\u041e\u041e \u0426\u0435\u043d\u0442\u0440\u0418\u043d\u0444\u043e\u0440\u043c",
+                "opf": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u0441 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0439 \u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e",
+                "lastName": "\u0418\u0432\u0430\u043d\u043e\u0432",
+                "firstName": "\u041a\u0430\u0444\u043a\u0430",
+                "patronymic": "\u0421\u044d\u0434\u043e\u0432\u0438\u0447",
+                "ogrn": "1177847005930",
+                "inn": "7841051733",
+                "kpp": "254043002"
+            },
+            "address": "127434, \u0413\u043e\u0440\u043e\u0434 \u041c\u043e\u0441\u043a\u0432\u0430,\u0423\u043b\u0438\u0446\u0430 \u0414\u0443\u0431\u043a\u0438",
+            "email": "avgust@445469.ru",
+            "phone": "+7(445469)4444444"
+        },
+        "agent": {
+            "lastName": "",
+            "firstName": "",
+            "patronymic": "",
+            "documentId": {
+                "serial": "",
+                "number": "",
+                "issuerName": "",
+                "issuerCode": "",
+                "issueDate": ""
+            },
+            "dateOfBirth": "",
+            "email": "",
+            "phone": ""
+        },
+        "grant": {
+            "subdivisions": [
+                {
+                    "kpp": "784133001",
+                    "address": "77:77:1111111:7777",
+                    "cadastralNumbers": {
+                        "warehouses": [
+                            {
+                                "warehouse": "77:77:1111111:7777"
+                            }
+                        ],
+                        "lands": [
+                            {
+                                "land": "77:77:1111111:7777"
+                            }
+                        ]
+                    },
+                    "parties": "",
+                    "subject": "",
+                    "startDate": "",
+                    "endDate": "",
+                    "equipment": "77:77:1111111:7777",
+                    "products": {
+                        "productNames": [
+                            {
+                                "productName": "\u0431\u0438\u043e\u044d\u0442\u0430\u043d\u043e\u043b \u0438\u0437 \u043d\u0435\u043f\u0438\u0449\u0435\u0432\u043e\u0433\u043e \u0441\u044b\u0440\u044c\u044f"
+                            }
+                        ],
+                        "productNameText": ""
+                    },
+                    "kppHardwareTS": "",
+                    "addressHardwareTS": ""
+                }
+            ],
+            "license": {
+                "numOfYears": "4",
+                "numOfMonths": "",
+                "kindOfActivity": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e, \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0438 \u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u043d\u043e\u0439 \u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c\u043d\u043e\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0438",
+                "kindOfWork": ""
+            },
+            "laboratory": {
+                "certificate": "1",
+                "parties": "",
+                "subject": "",
+                "startDate": "",
+                "endDate": ""
+            },
+            "bank": {
+                "name": "",
+                "account": ""
+            },
+            "payment": {
+                "number": "1",
+                "date": "2024-08-13",
+                "amount": "",
+                "purpose": ""
+            },
+            "uin": {
+                "number": "",
+                "date": ""
+            }
+        }
+    },
+    "appliedDocuments": [
+        {
+            "name": "act.pdf",
+            "businessName": "\u0423\u0441\u0442\u0430\u0432\u043d\u043e\u0439 \u043a\u0430\u043f\u0438\u0442\u0430\u043b",
+            "type": "application/pdf",
+            "mnemonic": "c172.FileUploadComponent.capital.3501462174"
+        },
+        {
+            "name": "act.pdf",
+            "businessName": "\u0420\u0430\u0441\u0447\u0451\u0442 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u043c\u043e\u0449\u043d\u043e\u0441\u0442\u0438 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0433\u043e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+            "type": "application/pdf",
+            "mnemonic": "c175.FileUploadComponent.moschnost.3501462174"
+        }
+    ],
+    "requestTimestamp": "2024-08-13T11:09:25.244+0300",
+    "updateTimestamp": "2024-08-13T11:09:25.683+0300",
+    "kafkaPartition": 0,
+    "kafkaOffset": 0,
+    "route": "IN",
+    "attachmentPath": "/mnt/leveler/storage/2024-07-26/47090b16-4b26-11ef-8f60-f2fb23422daf/Application.zip",
+    "state": "OUTGOING",
+    "archivedStatus": true,
+    "queuedStatus": true
+}

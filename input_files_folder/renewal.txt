@@ -1,0 +1,111 @@
+{
+    "id": "0afd83e3-572d-41e2-8383-5e5eb3b7e24d",
+    "serviceId": "lic-integrator",
+    "requestId": "fe8a257d-5c42-474b-b7ea-4febdece4ecd",
+    "requestType": "EPGU",
+    "xsltId": 10,
+    "responseId": "cec20510-597b-48b8-907d-94d29824678a",
+    "messageId": "1848dd1c-6877-11ef-9ce8-02f6ea582e78",
+    "requestContent": {
+        "epgu": {
+            "orderID": "3501662910",
+            "department": "100000012571",
+            "serviceCode": "60011983",
+            "targetCode": "60011983-1",
+            "statementDate": "2024-09-01"
+        },
+        "applicant": {
+            "ul": {
+                "fullName": "\u041e\u041e\u041e \u0426\u0435\u043d\u0442\u0440\u0418\u043d\u0444\u043e\u0440\u043c2",
+                "shortName": "\u041e\u041e\u041e \u0426\u0435\u043d\u0442\u0440\u0418\u043d\u0444\u043e\u0440\u043c2",
+                "opf": "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u0441 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0439 \u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e",
+                "lastName": "\u041f\u0430\u0440\u0430\u043c\u043e\u043d\u043e\u0432\u0430",
+                "firstName": "\u042e\u043b\u0438\u044f",
+                "patronymic": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430",
+                "ogrn": "1177847005930",
+                "inn": "7841051711",
+                "kpp": "784133001"
+            },
+            "address": "127434, \u0413\u043e\u0440\u043e\u0434 \u041c\u043e\u0441\u043a\u0432\u0430,\u0423\u043b\u0438\u0446\u0430 \u0414\u0443\u0431\u043a\u0438",
+            "email": "nica2011@yandex.ru",
+            "phone": "+7(926)3717373"
+        },
+        "agent": {
+            "lastName": "",
+            "firstName": "",
+            "patronymic": "",
+            "documentId": {
+                "serial": "",
+                "number": "",
+                "issuerName": "",
+                "issuerCode": "",
+                "issueDate": ""
+            },
+            "dateOfBirth": "",
+            "email": "",
+            "phone": ""
+        },
+        "renewal": {
+            "reason": {
+                "description": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u043d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u044f",
+                "code": ""
+            },
+            "changes": [
+                {
+                    "specificChanges": "\n                                    fdg\n                                ",
+                    "cadastralNumbers": {},
+                    "changeKPP": {},
+                    "excludeAddress": {},
+                    "excludeTS": {},
+                    "changeRegistrationTS": {},
+                    "changeSignTS": {},
+                    "changeHardwareTS": {},
+                    "changeSubdivision": {
+                        "cadastralNumbers": {}
+                    },
+                    "includeHardwareTS": {},
+                    "includeSubdivision": {
+                        "cadastralNumbers": {}
+                    },
+                    "includeProducts": {},
+                    "changeTypeProducts": {
+                        "cadastralNumbers": {}
+                    },
+                    "includeTS": {}
+                }
+            ],
+            "license": {
+                "numOfYears": "",
+                "numOfMonths": "",
+                "kindOfActivity": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e, \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0438 \u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0451\u043d\u043d\u043e\u0433\u043e \u044d\u0442\u0438\u043b\u043e\u0432\u043e\u0433\u043e \u0441\u043f\u0438\u0440\u0442\u0430",
+                "kindOfWork": "",
+                "licenseNumber": "12\u041f\u0421\u042d0000012",
+                "issueDate": "2024-08-09"
+            },
+            "bank": {
+                "name": "",
+                "account": ""
+            },
+            "payment": {
+                "number": "67547",
+                "date": "2024-09-01",
+                "amount": "",
+                "purpose": ""
+            },
+            "uin": {
+                "number": "",
+                "date": ""
+            }
+        },
+        "appliedDocuments": []
+    },
+    "requestTimestamp": "2024-09-01T18:31:20.508+0300",
+    "updateTimestamp": "2024-09-01T18:31:20.761+0300",
+    "kafkaPartition": 0,
+    "kafkaOffset": 0,
+    "route": "IN",
+    "attachmentPath": "/mnt/leveler/storage/2024-09-01/1848dd1c-6877-11ef-9ce8-02f6ea582e78/Application.zip",
+    "state": "OUTGOING",
+    "archivedStatus": true,
+    "queuedStatus": true
+}
